@@ -31,7 +31,7 @@ COPY app.py .
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
-### 第四步，跑完後，確認兩個檔案都在
+### 第四步，確認兩個檔案都在(app.py, Dockerfile)
 
 ### 說明 Dockerfile 程式碼
 ```FROM python:3.11-slim``` 
