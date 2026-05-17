@@ -227,4 +227,6 @@ first-api-76b4c86d6d-nj4t7    1/1     Running   0          84s
 > kubectl delete pod lte-api-76b4c86d6d-9vwfb
 然後馬上看：
 > kubectl get pods
-看看會發生什麼事，貼給我。
+
+查看 pod label 名稱
+> kubectl get pods --show-labels
